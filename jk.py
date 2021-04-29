@@ -8,7 +8,7 @@ engine = create_engine('postgresql://postgres:First20Linux@localhost:5432/postgr
 Base = declarative_base()
 
 class Author(Base):
-   __tablename__ = 'authors'
+   __tablename__ = 'authorsEmily'
 
    author_id = Column(Integer, primary_key=True)
    first_name = Column(String(length=50))
